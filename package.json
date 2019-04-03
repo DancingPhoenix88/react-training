@@ -1,0 +1,23 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "Project where I learn React (JS, Reactive Programming, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "reactive",
+    "programming"
+  ],
+  "author": "Vu Phuong Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "prop-types": "^15.7.2",
+    "reactjs": "^1.0.0",
+    "webpack": "^4.29.6"
+  }
+}
