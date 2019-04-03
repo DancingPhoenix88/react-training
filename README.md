@@ -84,19 +84,19 @@ First of all, I want a full keyboard experience. It means I can perform frequent
 - Can search & filter for tasks (case insensitive)
     - By keywords
     - By day        (`W`:`Mon`|`Tue`|`Wed`|`Thu`|`Fri`|`Sat`|`Sun`). 
-      - - - - - - - - - Multiple values combination rules: OR. 
-      - - - - - - - - - Typing hint available.
+      - Multiple values combination rules: OR. 
+      - Typing hint available.
     - By date       (`D`:`$date`, `M`:`$month`, `Y`:`$year`). 
-      - - - - - - - - - Multiple values combination rules: `{$dates OR}` AND `{$months OR}` AND `{$years OR}`.
+      - Multiple values combination rules: `{$dates OR}` AND `{$months OR}` AND `{$years OR}`.
     - By range      (`R`:`$previous_days`)`, default: 7 days. 
-      - - - - - - - - - Single value only.
+      - Single value only.
     - By status     (`S`:`NotStarted`|`InProgress*`|`Finished`|`Paused`|`Cancelled`|`Delayed*`). 
-      - - - - - - - - - Multiple values combination rules: OR. 
-      - - - - - - - - - Typing hint available (that's why I chose different first letter for each status)
-      - - - - - - - - - *InProgress* & *Delayed* could be appened with number of days count
-    - By category   (`C`:`...`)
-    - - - - - - - - - Multiple values combination rules: OR. 
-    - - - - - - - - - Typing hint available.
+      - Multiple values combination rules: OR. 
+      - Typing hint available (that's why I chose different first letter for each status)
+      - *InProgress* & *Delayed* could be appened with number of days count
+    - By category   (`C`:`...`).
+      - Multiple values combination rules: OR. 
+      - Typing hint available.
 - Has sound/visual effect for rejected actions (like unavailable Redo)
 
 
